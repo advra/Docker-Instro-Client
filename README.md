@@ -1,5 +1,6 @@
 # Docker Instor Client
 
-Image file for running client request collector for streaming grpc calls.
+Image file contianing the needed dependencies for developing and running the client. This environment serves as the gRPC client.
 
-Comes stock with grpc and protobuf.
+* gRPC
+* Protobuf

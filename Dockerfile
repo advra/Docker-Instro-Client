@@ -24,5 +24,9 @@ RUN rm -rf /var/lib/apt/lists/*
 WORKDIR /
 
 # expose port for requests
+# data
 EXPOSE 50020/tcp
 EXPOSE 50020/udp
+# command
+EXPOSE 50021/tcp
+EXPOSE 50021/udp

@@ -37,8 +37,10 @@ docker stop [container]
 ## Other notes:
 
 Alternatively you may use VSCode gui to perform the above steps. You will need to install the following:
+```
 - Vscode
 - Remote Containers
 - Remote SSH
 - Remote WSL
 - Remote Development
+```

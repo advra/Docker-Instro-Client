@@ -5,11 +5,11 @@ Image file contianing the needed dependencies for developing and running the cli
 * gRPC
 * Protobuf
 
-# Step 1: Obtain docker images
+### Step 1: Obtain docker images
 ```
 docker pull asdfadrian/instro-client
 ```
-# Step 2: Obtain hash id
+### Step 2: Obtain hash id
 ```
 docker images
 ```
@@ -19,7 +19,7 @@ PS C:\Users\aaa> docker images
 REPOSITORY                 TAG       IMAGE ID       CREATED        SIZE
 asdfadrian/ubuntu-grpc     latest    91770c06a4cf   3 months ago   2.15GB
 ```
-# Step 2: Run container using the hash Image ID tag from previous step  
+### Step 3: Run container using the hash Image ID tag from previous step  
 ```
 docker run -it 91770c06a4cf bash 
 ```
